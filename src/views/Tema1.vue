@@ -558,26 +558,26 @@
       .px-4.px-md-5.pt-2.pb-5
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8
+          .col-lg-8(data-aos="fade-left")
             p.mb-0 Los contratos de condiciones uniformes constituyen el instrumento por excelencia para que usuarios y prestadores puedan ejercer sus derechos y deberes dentro de la relación que surge de la prestación de un servicio público domiciliario. Esta característica implica que, en caso de ser necesario, el contrato debe ser una herramienta clara y ágil, para que las partes cuenten con información veraz y oportuna sobre las reglas y procedimientos que deben seguir en cada evento posible. En el contrato de condiciones uniformes deben quedar claramente definidas las condiciones en que la empresa presta los servicios a sus usuarios.
-          .col-lg-4.d-none.d-lg-block
+          .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
             img.img-fluid(src='@/assets/curso/temas/53.png', alt='', style='max-width: 100%').mx-auto
 
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-10
-            .tarjeta.bg-color-p.px-5.py-5
+            .tarjeta.bg-color-p.px-5.py-5(data-aos="zoom-in")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   img.img-fluid(src='@/assets/curso/temas/54.svg', alt='', style='max-width: 90px;').mx-auto.mb-lg-0
                 .col-lg
                   p.mb-0.text-white #[strong El CCU (Contrato de Condiciones Uniformes)] es el acuerdo mediante el cual la empresa se compromete a prestar el servicio público domiciliario de energía según las condiciones pactadas. El contrato de servicios públicos debe ser uniforme, es decir, ofrecer las mismas condiciones (derechos y deberes) para la prestación del servicio a todos los habitantes de una región.
 
-        p.mb-5 Se denomina consensual porque se da por establecido sin necesidad de que las partes lo firmen, cuando el usuario solicita o está recibiendo el servicio en el lugar donde habita o establece su negocio, siempre que el inmueble cumpla con las condiciones técnicas previstas por la empresa. 
+        p.mb-5(data-aos="fade-left") Se denomina consensual porque se da por establecido sin necesidad de que las partes lo firmen, cuando el usuario solicita o está recibiendo el servicio en el lugar donde habita o establece su negocio, siempre que el inmueble cumpla con las condiciones técnicas previstas por la empresa. 
 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-xl-10
-            .tarjeta.bg-color-p.px-5.py-5
+            .tarjeta.bg-color-p.px-5.py-5(data-aos="zoom-in")
               .row.justify-content-center.align-items-center
                 .col-lg-auto
                   img.img-fluid(src='@/assets/curso/temas/54.svg', alt='', style='max-width: 90px;').mx-auto.mb-lg-0
