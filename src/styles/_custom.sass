@@ -1,20 +1,246 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
+    animation: float1 3s linear infinite alternate !important
+    top: 40% !important
+    left: 0% !important
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+    animation: float2 4s ease-in-out infinite alternate !important
+    top: 26% !important
+    right: 27% !important
+  &-3
+    animation: float3 3s ease-in-out infinite alternate !important
+    top: 67% !important
+    right: 18% !important
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(10px)
 
   100%
-    transform: translateY(0px)
+    transform: translateY(-10px)
 
+@keyframes float2
+  0%
+    transform: translateX(-10px)
+
+  100%
+    transform: translateX(10px) 
+
+@keyframes float3
+  0%
+    transform: Scale(0.9)
+
+  100%
+    transform: Scale(1.1)
+
+@keyframes bounce-location
+  0%, 100%
+    transform: translateY(0) scale(1)
+  50%
+    transform: translateY(-10px) scale(1.1)
+// Banner Interno
+.banner-interno__fondo
+  background-image: url(../assets/curso/fondo_tema.png)  no-repeat top left !important
+
+// Shadows
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+  &-top-left-right
+    box-shadow: -4px 0 6px -2px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.1)
+
+// Full Width Background
+.full-width-bg
+  height: 100%
+  width: calc(100% + var(--bs-gutter-x) * 2)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-left: -3rem
+  margin-right: -3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background: url('../assets/curso/bg/fondo-1.svg') no-repeat top left
+  &-2
+    background: rgb(253,90,55)
+    background: linear-gradient(90deg, rgba(253,90,55,1) 53%, rgba(204,246,240,1) 53%)
+  &-3
+    background: $color-primario-p10
+    position: relative
+    transition: all .4s ease-in-out
+    &:hover
+      box-shadow: 0px 10px 25px rgba(0,0,0,.12)
+      transform: scale(1.01)
+      cursor: pointer
+    h5
+      display: inline-block
+    &::before
+      content: ''
+      position: absolute
+      top: 15px
+      right: 20px
+      width: 23px
+      height: 28px
+      background: url('../assets/curso/bg/decoracion-1.svg') no-repeat top left
+  &-4
+    background: url('../assets/curso/bg/fondo-2.svg') no-repeat top left
+  &-5
+    background: url('../assets/curso/bg/fondo-3.svg') no-repeat top left
+  &-6
+    background: url('../assets/curso/bg/fondo-4.svg') #F6DE93 no-repeat bottom right
+  &-7
+    background: rgb(52, 11, 129)
+    background: linear-gradient(90deg, rgba(52, 11, 129,1) 53%, rgba(204,246,240,1) 53%)
+// Colors
+.bg-color
+  &-p
+    background-color: $color-primario
+  &-p5
+    background-color: $color-primario-p5
+  &-s5
+    background-color: $color-secundario-s5
+  &-s10
+    background-color: $color-secundario-s10
+  &-ab
+    background-color: $color-acento-botones
+  &-ac
+    background-color: $color-acento-contenido
+  &-ac5
+    background-color: $color-acento-contenido-a5
+  &-ac10
+    background-color: $color-acento-contenido-a10
+  &-white
+    background-color: white
+
+.br-small
+  border-radius: 9px !important
+
+.text-sm-small
+  @media screen and (max-width: $bp-max-sm)
+    font-size: 0.89rem
+
+
+// Custom List Styles
+.custom-list
+  list-style-type: none
+  padding-left: 0
+  
+  li
+    position: relative
+    padding-left: 1.4rem
+    
+    &::before
+      content: url('../assets/curso/bg/chk.svg')
+      position: absolute
+      left: 0
+      top: 2%
+      width: 12px
+      height: 12px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F7B71B
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #FCC3B7
+  border-color: #FCC3B7
+
+.slyder-a__bullets__item--active
+  background-color: #FD5A37 !important
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+// Title Styles
+.titulo-tres
+  position: relative
+  background: $color-acento-contenido
+  border-radius: 8px
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 74px
+
+  h3, h4
+    margin: 0
+    line-height: 110% !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 52px
+    transform: translateX(12px)
+    background: url('../assets/curso/temas/title-h3.svg') transparent no-repeat bottom left
+
+// Accordion Styles
+.acordion__titulo
+    h3 
+      color: #fff
+.acordion__accion__btn--a
+  background: $color-acento-botones
+  border: 0
+  color: #000
+.acordion__activo
+  background: $color-acento-contenido-a10
+  .acordion__titulo h3 
+    color: #000 !important
+
+// Carousel Styles
+.carousel-bg
+  .tarjeta
+    text-align: center
+    p
+      font-size: 0.94rem
+      line-height: 1.25
+    h5,h6 
+      color: #fff
+      background: $color-acento-contenido
+      padding: 0.5rem 1rem
+      display: inline-block
+      justify-content: center
+      margin-bottom: 1rem
+.slyder-f__btn i
+  font-size: 1.2rem
+  background-color: #F7B71B
+  border-radius: 50px
+  padding: .8rem 1rem
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, .3)
+
+// Timeline Styles
+.linea-tiempo-c__header__item__year
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+  width: 100%
+  @media screen and (max-width: $bp-max-md)
+    max-width: 70%
+
+
+
+// Estilos para botones de navegación y control
+.linea-tiempo-c__header__btn,
+.linea-tiempo-c__header__btn--left,
+.linea-tiempo-c__header__btn--right,
+.pasos-b__header__btn--left,
+.pasos-b__header__btn--right
+  background: $color-acento-botones
+  border: 0
+  color: #000
+
+.tarjeta-avatar
+  padding-top: 45px
+  .tarjeta
+    padding-top: 35px !important
+
+.rounded-pill
+  @media screen and (max-width: $bp-max-sm)
+    border-radius: 2rem !important
