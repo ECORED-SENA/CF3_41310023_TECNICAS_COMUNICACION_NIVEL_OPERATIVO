@@ -109,32 +109,120 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '¿Qué es una norma?',
+      referencia:
+        'INTECO. (2016). ¿Qué es una Norma?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=r39V0cFXcG8',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Tipos de normas',
+      referencia:
+        'Cámara de Comercio de Bogotá (2014). Normas Internacionales de Contabilidad y de Información Financiera (NIIF). [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LvBRWBLmwMo',
+    },
+    {
+      tema: 'Normatividad empresarial',
+      referencia:
+        'Consultec (2020). Normatividad interna y externa para empresas por Sergio Chávez [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=4qwTCjopJlI',
+    },
+    {
+      tema: 'Normatividad empresarial estatal',
+      referencia:
+        'Jlcauditors (s.f.). ¿Qué leyes debe cumplir una empresa en Colombia?',
+      tipo: 'Página web',
+      link: 'https://jlcauditors.com/que-leyes-debe-cumplir-empresa-colombia/',
+    },
+    {
+      tema: 'Contratos de Condiciones Uniformes',
+      referencia:
+        'SuperserviciosSSPD. (2016). ¿Qué es el contrato de condiciones uniformes?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=h3qAGsKU38M',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Calidad',
+      significado: 'superioridad o excelencia de algo o de alguien.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Comunicación efectiva',
+      significado:
+        'llevar el mensaje correcto a la audiencia adecuada en el momento oportuno, lo que se refleja positivamente en los indicadores del negocio.',
+    },
+    {
+      termino: 'Comunicación externa',
+      significado:
+        'elemento importante para promocionar, dar a conocer, proyectar una buena imagen y resolver cualquier tipo de incidencia en la empresa.',
+    },
+    {
+      termino: 'Comunicación interna',
+      significado:
+        'clave para el buen funcionamiento de la empresa y la correcta gestión de los recursos humanos.',
+    },
+    {
+      termino: 'Derrotero',
+      significado:
+        'camino o medio que se sigue para alcanzar un fin determinado.',
+    },
+    {
+      termino: 'Directriz',
+      significado:
+        'norma o conjunto de normas e instrucciones que se establecen o se tienen en cuenta al proyectar una acción o un plan.',
+    },
+    {
+      termino: 'Eficaz',
+      significado:
+        'que produce el efecto esperado, que es adecuado para un fin determinado.',
+    },
+    {
+      termino: 'Eficiente',
+      significado:
+        'que realiza o cumple un trabajo o función de manera óptima.',
+    },
+    {
+      termino: 'Empresa',
+      significado:
+        'entidad en la que intervienen el capital y el trabajo como factores de producción de actividades industriales, mercantiles o de prestación de servicios.',
+    },
+    {
+      termino: 'Entorno',
+      significado:
+        'conjunto de circunstancias o factores sociales, culturales, morales, económicos, profesionales, etc., que rodean a algo o a alguien, y que influyen en su estado o desarrollo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Gómez, L. (2010). Norma. Definición ABC.',
+      link: 'https://www.definicionabc.com/derecho/norma.php',
+    },
+    {
+      referencia:
+        'Enciclopedia de Ejemplos (2017). 10 Ejemplos de Políticas y Normas de una empresa.',
+      link: 'http://www.ejemplos.co/10-ejemplos-de-normas-de-una-empresa/',
+    },
+    {
+      referencia: 'ESSA. (2012). Contrato de condiciones uniformes.',
+      link:
+        'https://www.essa.com.co/site/clientes/es-es/legislaci%C3%B3nynormatividad/condicionesuniformes.aspx',
+    },
+    {
+      referencia: 'Pérez, P. (2015). 10 tipos de normas.',
+      link: 'http://10tipos.com/tipos-de-normas/',
+    },
+    {
+      referencia: 'Sánchez, M. (2012). ¿Por qué son importantes las normas?',
+      link: 'https://www.lifeder.com/por-que-son-importantes-las-normas/',
+    },
+    {
+      referencia:
+        'Semana (2017). La normatividad empresarial como la oportunidad para crecer.',
+      link:
+        'http://www.semana.com/hablan-las-marcas/articulo/la-normatividad-empresarial-como-la-oportunidad-para-crecer/528660',
     },
   ],
   creditos: [
@@ -157,8 +245,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Salomé Ortiz Moreno',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Desarrollo Agropecuario y Agroindustrial – CEDEAGRO - Regional Boyacá',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -167,18 +261,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

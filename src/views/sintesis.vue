@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta la normatividad empresarial, explicando su definición, tipos de normas y su división en normatividad interna y externa. Se describen los contextos en los que se aplican las normas, incluyendo aspectos religiosos, sociales, ecológicos, morales y jurídicos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
