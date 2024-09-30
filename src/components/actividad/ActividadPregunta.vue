@@ -89,6 +89,11 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+img
+  width: auto
+  height: auto
+  display: block
+  margin: auto
 .tarjeta--pregunta
   background: #dce4eb
 .tarjeta-respuesta

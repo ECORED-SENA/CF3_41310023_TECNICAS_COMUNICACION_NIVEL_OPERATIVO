@@ -1,12 +1,12 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad                
-        <Actividad :cuestionario="cuestionario" />
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    #Actividad                
+      <Actividad :cuestionario="cuestionario" />
+
+</template>
 
 <script>
 import Actividad from '@/components/actividad/Actividad'
@@ -15,10 +15,10 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Normatividad empresarial',
-      titulo: 'Cuestionario: Normatividad empresarial',
+      tema: 'Normatividad empresarial.',
+      titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave de la normatividad empresarial, incluyendo la definición y tipos de normas, la importancia de las reglas dentro de una empresa, y las implicaciones de no cumplir con la normatividad interna y externa. Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: <strong>Normatividad empresarial</strong>. Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
       barajarPreguntas: true,
       preguntas: [
         {

@@ -75,7 +75,7 @@
                       img.img-fluid(src='@/assets/curso/temas/6.svg', alt='', style='max-width: 90px;').mx-auto.mb-4.mb-lg-0
                     .col-lg
                       h5.mb-0.bg-color-ab.py-1.px-2.mb-3 Explicitas e implícitas
-                      p.mb-0 Las normas pueden ser explícitas (formales, escritas) o implícitas (informales, tácitas).
+                      p.mb-0 Las normas pueden ser explícitas (formales y escritas) o implícitas (informales y tácitas).
 
         p.mb-5(data-aos="fade-up") #[strong Las consecuencias de la ausencia o mal diseño de normas:]
 
@@ -126,7 +126,7 @@
               .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
                 .pe-4
                   h4 Normas sociales 
-                  p.mt-4 Normas que regulan la conducta justa de los individuos en cuanto miembros de una colectividad o sociedad, estableciendo lineamientos y valores para lograr una coexistencia estable, armónica y pacífica. 
+                  p.mt-4 Normas que regulan la conducta justa de los individuos en cuanto a miembros de una colectividad o sociedad, estableciendo lineamientos y valores para lograr una coexistencia estable, armónica y pacífica.
               .col-lg-4
                 img(src='@/assets/curso/temas/10.png', style="max-width: 420px").mx-auto
 
@@ -274,7 +274,7 @@
               SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")(data-aos="zoom-in-up")
                 .tarjeta.bg-white.p-4.shadow-top-left-right
                   img(src='@/assets/curso/temas/25.svg', style="max-width: 89px", alt='').mx-auto.mb-4
-                  h6 Equilibrio ecológico
+                  h6 Justas
                   p Aplicarse de manera equitativa, respondiendo a criterios objetivos. 
 
                 .tarjeta.bg-white.p-4.shadow-top-left-right
@@ -313,21 +313,21 @@
       .p-4.p-md-5
         .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4.shadow-soft
           LineaTiempoC.color-acento-contenido(text-small).px-4(data-aos="fade-up")
-            .row(titulo="Normas de seguridad").justify-content-center.mt-5
+            .row(titulo="1").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de seguridad
                 p Velan por la protección de los trabajadores, obligándolos a actuar de manera segura o a emplear elementos protectores. Ejemplo: Una norma en una empresa metalúrgica que obligue a los trabajadores a usar guantes y lentes protectores en todo momento.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/temas/32.png", style="max-width:100%", alt="").mx-auto.mb-4
 
-            .row(titulo="Normas de convivencia").justify-content-center.mt-5
+            .row(titulo="2").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de convivencia
                 p Velan por la sana y respetuosa coexistencia de los trabajadores, impidiendo que las conductas de unos perjudiquen a otros. Ejemplo: Una norma en una empresa de oficinas que disponga de un comedor como área exclusiva de alimentación para no ensuciar o llenar de olores el ambiente de trabajo.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/temas/33.png", style="max-width:100%", alt="").mx-auto.mb-4
 
-            .row(titulo="Normas de vestimenta").justify-content-center.mt-5
+            .row(titulo="3").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de vestimenta
                 p También llamadas "códigos de uniforme", regulan la manera de vestir de los trabajadores, manteniendo un código común que sirva a la empresa para identificar a sus empleados o que respete la impresión formal de la empresa ante sus visitantes. Ejemplo: Un código de uniforme en una empresa de servicios de salud que exija a los empleados médicos usar una bata blanca y limpia en todo momento.
@@ -335,7 +335,7 @@
                 img.img-fluid(src="@/assets/curso/temas/34.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Normas de salubridad").justify-content-center.mt-5
+            .row(titulo="4").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de salubridad
                 p Especialmente importantes para empresas de manejo de alimentos o aquellas cuyos trabajadores puedan estar expuestos a condiciones de riesgo sanitario. Estas normas garantizan la correcta disposición de los elementos para evitar enfermedades, contaminaciones y otros riesgos a la salud. Ejemplo: Normas en una empresa de alimentos para mantener sus insumos libres de hongos y bacterias.
@@ -343,7 +343,7 @@
                 img.img-fluid(src="@/assets/curso/temas/35.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Normas de jerarquía").justify-content-center.mt-5
+            .row(titulo="5").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de jerarquía
                 p Toda organización humana tiene dirigentes y dirigidos, y esta jerarquía es clave para el funcionamiento sostenido del engranaje humano. Existen normas que distinguen entre la dirigencia y los trabajadores. Ejemplo: Normas de jerarquía en una empresa que obligan a los trabajadores a acatar la autoridad de sus superiores.
@@ -352,7 +352,7 @@
 
 
 
-            .row(titulo="Normas de protocolo").justify-content-center.mt-5
+            .row(titulo="6").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de protocolo
                 p Se refiere al conjunto de actitudes y conductas de cortesía que facilitan la interacción en situaciones de respeto o al tratar con invitados especiales. Ejemplo: Normas de protocolo en una empresa que instruyan a los trabajadores de recepción sobre cómo dar la bienvenida, atender amablemente y ofrecer un café a los visitantes y clientes.
@@ -360,7 +360,7 @@
                 img.img-fluid(src="@/assets/curso/temas/37.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Normas jurídicas y legales").justify-content-center.mt-5
+            .row(titulo="7").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas jurídicas y legales
                 p La normativa legal de una empresa es el reglamento más formal que tiene, pues se ciñe a los códigos penales y civiles del país en que opera. Ejemplo: Normas de auditoría interna en una empresa para protegerse de conflictos legales.
@@ -368,7 +368,7 @@
                 img.img-fluid(src="@/assets/curso/temas/38.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Normas de trabajo").justify-content-center.mt-5
+            .row(titulo="8").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de trabajo
                 p Más generales, tienen que ver con la concepción específica del trabajo en la empresa, y se diseñan entre los códigos legales del país y las perspectivas de la empresa. Ejemplo: Empresas como Google tienen normas de trabajo flexibles, permitiendo horarios adaptables para maximizar el rendimiento de sus empleados.
@@ -376,7 +376,7 @@
                 img.img-fluid(src="@/assets/curso/temas/39.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Normas de contratación").justify-content-center.mt-5
+            .row(titulo="9").justify-content-center.mt-5
               .col-lg-7.mb-4.mb-md-0
                 h4 Normas de contratación
                 p La adquisición de nuevos empleados también está sujeta a normas y coordinaciones por parte de la empresa (y del marco jurídico en el que opera). Ejemplo: Muchas empresas tienen reglamentos que evitan la selección discriminatoria de personal o que incluyen a personas con discapacidad en su nómina.
@@ -406,7 +406,7 @@
       .col-lg.order-2.order-lg-1.mb-4.mb-lg-0
         .bg-color-s5(data-aos="fade-left").h-100
           .p-4
-            p.mb-0 Conjunto de estándares internacionales de contabilidad que busca que las empresas conviertan los estados financieros a normas internacionales, estableciendo los requisitos de reconocimiento, medición, presentación e información a revelar sobre las transacciones y hechos económicos que pueden afectar a una empresa. Aplica para todas las compañías y es regulada por el Congreso, la Superintendencia de Sociedades y la Dian.
+            p.mb-0 Conjunto de estándares internacionales de contabilidad que busca que las empresas conviertan los estados financieros a normas internacionales, estableciendo los requisitos de reconocimiento, medición, presentación e información a revelar sobre las transacciones y hechos económicos que pueden afectar a una empresa. Aplica para todas las compañías y es regulada por el Congreso, la Superintendencia de Sociedades y la DIAN.
       .col-lg-auto.order-1.order-lg-2.mb-4.mb-lg-0
         img.img-fluid(src='@/assets/curso/temas/43.png', alt='', style='max-width: 190px;').mx-auto.h-100
 
@@ -454,22 +454,22 @@
                 img(src='@/assets/curso/temas/45.svg' style='max-width: 85px')
                 .tarjeta.bg-color-s10.w-100
                   .p-4
-                    h6.text-center Sanciones monetarias
+                    h6.text-center Sanciones monetarias.
             .col-lg-4.mb-4.mb-lg-0
               .tarjeta-avatar.h-100
                 img(src='@/assets/curso/temas/46.svg' style='max-width: 85px')
                 .tarjeta.bg-color-s10.w-100
                   .p-4
-                    h6.text-center Requerimientos adicionales de información
+                    h6.text-center Requerimientos adicionales de información.
             .col-lg-4.mb-4.mb-lg-0
               .tarjeta-avatar.h-100
                 img(src='@/assets/curso/temas/47.svg' style='max-width: 85px')
                 .tarjeta.bg-color-s10.w-100
                   .p-4
-                    h6.text-center Auditorías especiales
+                    h6.text-center Auditorías especiales.
 
     .titulo-tres.mb-5(data-aos="flip-up")
-      h4 Habeas Data 
+      h4 #[em Habeas Data]
 
 
     .bg-fondo-7.p-4.ps-lg-5(data-aos="zoom-in").mb-5
@@ -524,7 +524,7 @@
             li Sanciones económicas que pueden llegar hasta los 500 SMMLV.
 
     .titulo-tres.mb-5(data-aos="flip-up")
-      h4 Sarlaft 
+      h4 SARLAFT 
 
 
     .bg-fondo-7.p-4.ps-lg-5(data-aos="zoom-in").mb-5
@@ -572,7 +572,7 @@
                 .col-lg
                   p.mb-0.text-white #[strong El CCU (Contrato de Condiciones Uniformes)] es el acuerdo mediante el cual la empresa se compromete a prestar el servicio público domiciliario de energía según las condiciones pactadas. El contrato de servicios públicos debe ser uniforme, es decir, ofrecer las mismas condiciones (derechos y deberes) para la prestación del servicio a todos los habitantes de una región.
 
-        p.mb-5(data-aos="fade-left") Se denomina consensual porque se da por establecido sin necesidad de que las partes lo firmen, cuando el usuario solicita o está recibiendo el servicio en el lugar donde habita o establece su negocio, siempre que el inmueble cumpla con las condiciones técnicas previstas por la empresa. 
+        p.mb-5(data-aos="fade-left") Se denomina #[strong consensual] porque se da por establecido sin necesidad de que las partes lo firmen, cuando el usuario solicita o está recibiendo el servicio en el lugar donde habita o establece su negocio, siempre que el inmueble cumpla con las condiciones técnicas previstas por la empresa. 
 
 
         .row.justify-content-center.align-items-center.mb-5
