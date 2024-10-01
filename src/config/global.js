@@ -197,7 +197,7 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Gómez, L. (2010). Norma. Definición ABC.',
+      referencia: 'Gómez, L. (2010). <em>Norma</em>. Definición ABC.',
       link: 'https://www.definicionabc.com/derecho/norma.php',
     },
     {
