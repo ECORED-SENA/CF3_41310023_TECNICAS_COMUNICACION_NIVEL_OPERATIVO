@@ -202,25 +202,26 @@ export default {
     },
     {
       referencia:
-        'Enciclopedia de Ejemplos (2017). 10 Ejemplos de Políticas y Normas de una empresa.',
+        'Enciclopedia de Ejemplos (2017). <em>10 Ejemplos de Políticas y Normas de una empresa</em>.',
       link: 'http://www.ejemplos.co/10-ejemplos-de-normas-de-una-empresa/',
     },
     {
-      referencia: 'ESSA. (2012). Contrato de condiciones uniformes.',
+      referencia: 'ESSA. (2012). <em>Contrato de condiciones uniformes</em>.',
       link:
         'https://www.essa.com.co/site/clientes/es-es/legislaci%C3%B3nynormatividad/condicionesuniformes.aspx',
     },
     {
-      referencia: 'Pérez, P. (2015). 10 tipos de normas.',
+      referencia: 'Pérez, P. (2015). <em>10 tipos de normas</em>.',
       link: 'http://10tipos.com/tipos-de-normas/',
     },
     {
-      referencia: 'Sánchez, M. (2012). ¿Por qué son importantes las normas?',
+      referencia:
+        'Sánchez, M. (2012). <em>¿Por qué son importantes las normas?</em>',
       link: 'https://www.lifeder.com/por-que-son-importantes-las-normas/',
     },
     {
       referencia:
-        'Semana (2017). La normatividad empresarial como la oportunidad para crecer.',
+        'Semana (2017). <em>La normatividad empresarial como la oportunidad para crecer</em>.',
       link:
         'http://www.semana.com/hablan-las-marcas/articulo/la-normatividad-empresarial-como-la-oportunidad-para-crecer/528660',
     },
@@ -277,11 +278,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
