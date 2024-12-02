@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030" height="412" viewBox="0 0 1030 412">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403308" data-name="Rectángulo 403308" width="372" height="184" rx="14" transform="translate(0.051 -0.208)" fill="#ebe7f3"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1107222" data-name="Grupo 1107222" transform="translate(-285.051 -2739)">
+    <rect id="Rectángulo_403024" data-name="Rectángulo 403024" width="1030" height="412" rx="14" transform="translate(285.051 2739)" fill="#f6de93"/>
+    <g id="Enmascarar_grupo_1099792" data-name="Enmascarar grupo 1099792" transform="translate(943 2967.209)" clip-path="url(#clip-path)">
+      <path id="Trazado_876258" data-name="Trazado 876258" d="M780.743,120.266C755.863,67.5,710.63,24.72,657.036,7.84S542.248,1.465,499.25,38.172s-65.291,99.49-52.639,156.72c6.365,28.779,20.665,55.079,28.347,83.523s7.34,62.25-12.055,83.263c-33.507,36.3-99.282,12.5-134.713,46.725-35.336,34.137-21.533,108.577-64.629,130.938-20.305,10.536-44.536,3.794-67.206,1.3-58.319-6.409-118.59,19.256-155.74,66.32S-9.493,721.134,7.129,780.368L851.746,671.594Z" transform="translate(4.519 -394.461) rotate(7)" fill="#f7b72b" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90.914" height="90.914" viewBox="0 0 90.914 90.914">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403691" data-name="Rectángulo 403691" width="52.867" height="62.272" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1107057" data-name="Grupo 1107057" transform="translate(4413 7115)">
+    <g id="Grupo_1107054" data-name="Grupo 1107054">
+      <g id="Grupo_1107048" data-name="Grupo 1107048" transform="translate(0.379 0.028)">
+        <g id="Grupo_1107043" data-name="Grupo 1107043">
+          <g id="Grupo_1107022" data-name="Grupo 1107022" transform="translate(-4800.43 -14039.028)">
+            <g id="Grupo_1106143" data-name="Grupo 1106143" transform="translate(387.051 6924)">
+              <rect id="Rectángulo_400898" data-name="Rectángulo 400898" width="90.914" height="90.914" rx="45.457" transform="translate(0.001)" fill="#febdaf" opacity="0.859"/>
+              <rect id="Rectángulo_400907" data-name="Rectángulo 400907" width="90.914" height="90.914" rx="45.457" transform="translate(0)" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_1107053" data-name="Grupo 1107053" transform="translate(-4394 -7101)">
+        <g id="Grupo_1107052" data-name="Grupo 1107052" clip-path="url(#clip-path)">
+          <path id="Trazado_878730" data-name="Trazado 878730" d="M26.434,62.272A26.464,26.464,0,0,1,0,35.839V9.658l.482-.176L26.434,0l.251.092L52.867,9.658V35.839A26.464,26.464,0,0,1,26.434,62.272M1.466,10.683V35.839a24.968,24.968,0,0,0,49.935,0V10.683L26.434,1.561Z"/>
+          <path id="Trazado_878731" data-name="Trazado 878731" d="M72.192,110.065a14.705,14.705,0,1,1,6.793-27.751l-.678,1.3a13.242,13.242,0,1,0,7.124,11.746A13.122,13.122,0,0,0,83.3,88.152L70.78,100.674l-7-7,1.036-1.036L70.78,98.6l12.7-12.7.506.679a14.706,14.706,0,0,1-11.8,23.488" transform="translate(-45.759 -64.2)"/>
+          <path id="Trazado_878732" data-name="Trazado 878732" d="M49.446,94.355A20.449,20.449,0,1,1,69.9,73.905,20.472,20.472,0,0,1,49.446,94.355m0-39.433A18.983,18.983,0,1,0,68.43,73.905,19,19,0,0,0,49.446,54.922" transform="translate(-23.081 -42.55)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
